@@ -2,6 +2,8 @@ export default {
   async fetch(request, env) {
     const inputs = {
       prompt: "cyberpunk cat in a rainy neon city",
+      width: 250,
+      height: 250,
     };
 
     const response = await env.AI.run(
