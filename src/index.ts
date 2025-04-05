@@ -1,3 +1,5 @@
+import { ExportedHandler } from '@cloudflare/workers-types'
+
 export default {
   async fetch(request, env) {
     const inputs = {
