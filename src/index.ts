@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "cyberpunk cat in a rainy neon city",
+      prompt: "cyberpunk cat in a rainy neon city as a DJ playing an EDM set",
     };
 
     try {
